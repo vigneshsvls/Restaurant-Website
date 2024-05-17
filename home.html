@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_home.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class ="bg"></div>
+    <div class="container">
+        <h1>Welcome</h1>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">My orders</a></li>
+                <li><a href="Intro.html">My Cart</a></li>
+                <li><a href="#">Contant Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="category">
+        <ul>
+            <li><a href="home.html">VEGETARIAN</a></li>
+            <li><a href="nonveg.html">NON-VEGETARIAN</a></li>
+        </ul>
+    </div>
+    <p>VEGETARIAN</p>
+    <div class="imageblock">
+        <img src="chilli paneer.jpg" height="200" width="300"><br>
+        <img src="magostickyrice.jpg" height="200" width="300"><br>
+        <img src="rice.jpg" height="200" width="300"><br>
+        <img src="friedrice.jpg" height="200" width="300"><br>
+    </div>
+    <div class="names">
+        <p1>Chilli Paneer <br> cost: 200/-</p1>
+        <p1>Mango Sticky Rice <br>cost:300/-</p1>
+        <p1>South Indian Rice<br> cost:220/-</p1>
+        <p1>Fried Rice <br> cost:180/-</p1>
+    </div>
+    <div class="op">
+        <li><a href="#" id="atc">Add To Cart</a></li>
+        <li><a href="#" id="atc1">Add To Cart</a></li>
+        <li><a href="#" id="atc2">Add To Cart</a></li>
+        <li><a href="#" id="atc3">Add To Cart</a></li>
+        <!--<label id="countlabel">0</label> 
+        <li><a href="#" id="sub">-</a></li>
+        <li><a href="#" id="add">+</a></li>-->
+    </div>
+    <div class="arrange">
+        <p2>Number of items in cart: </p2>
+        <p2 id="countlabel">0</p2> 
+    </div>
+    <div class="com">
+        <h2>Total:</h2>
+        <h2 id="totres">0</h2>
+        <form action="final.html">
+            <button id="butn">BUY</button>
+        </form>
+    </div>
+
+    <script src="itemcounter.js"></script>
+</body>
+</html>
